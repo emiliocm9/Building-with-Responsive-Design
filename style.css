@@ -20,6 +20,11 @@ body {
   width: 100%;
 }
 
+.grid__second-text h3,
+.nav__latest_link {
+  text-transform: uppercase;
+}
+
 .nav__tnw,
 .nav__tnw-left ul,
 .nav__tnw-right ul,
@@ -100,7 +105,7 @@ body {
   text-decoration: none;
   color: #d5d5d5;
   font-size: 1.4rem;
-  text-transform: uppercase;
+
   font-weight: bold;
 }
 
@@ -128,7 +133,7 @@ body {
 .grid {
   margin-top: 0.5rem;
   width: 100%;
-  height: 47rem;
+  height: 60rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -171,12 +176,56 @@ body {
   grid-row: 1;
   grid-column: 3;
   border: 1px solid red;
-  background: black;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/psychedelic-796x419.png');
+  background-size: cover;
+}
+
+.grid__second-text {
+  width: 90%;
+  margin: 10rem auto 0rem auto;
+  display: flex;
+
+  color: white;
+  flex-direction: column;
+}
+.grid__second-text h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 0.4rem;
+}
+
+.second-text__header {
+  font-size: 3.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1rem;
+}
+
+.share__details {
+  color: #9e9b9a;
+  display: flex;
+  width: 45%;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+.author__title {
+  text-decoration: none;
+  color: inherit;
 }
 
 .grid__third {
   grid-row: 2;
   grid-column: 3;
-  border: 1px solid red;
-  background: black;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/PlayStation-5-DualSense-796x417.jpg');
 }
