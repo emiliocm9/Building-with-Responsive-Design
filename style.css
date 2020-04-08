@@ -17,4 +17,56 @@ body {
 
 .header {
   background-color: lightblue;
+  width: 100%;
+}
+
+.nav__tnw {
+  height: 3.3rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__tnw-left {
+  
+}
+
+.nav__tnw-left ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 1.5rem;
+}
+
+.nav__tnw-link {
+  color: #959595;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.nav__tnw-right ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.nav__latest {
+  height: 6.6rem;
+  background-color: white;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__latest-right ul {
+  margin: 0 3rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav__latest_link {
+  text-decoration: none;
 }
