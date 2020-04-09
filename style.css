@@ -265,14 +265,13 @@ body {
 /* Latest Articles */
 
 .main-container {
-  max-width: 70vw;
+  max-width: 85%;
   width: 100%;
   margin: 0 auto;
 }
 
 .latest {
   background-color: #fff;
-
   margin-top: 8rem;
 }
 
@@ -498,14 +497,57 @@ body {
 
 /* Articles Grid Section */
 .articles__grid {
-  display: grid;
-  height: 200rem; 
-  grid-template-columns: repeat (auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 
 .articles__container {
   background-color: tomato;
-  height: 60rem;
+  height: 75rem;
+}
+
+.articles__container h1 {
+  background-color: white;
+  color: var(--header);
+  padding-bottom: 1rem;
+}
+
+.articles__image {
+  height: 30rem;
+  background-color: blue;
+}
+
+.articles__latest {
+  width: 100%;
+  height: 9rem;
+  background-color: #FFF4F2;
+  display: flex;
+  align-items: center;
+}
+
+.articles__latest-text {
+  padding: 1rem;
+  width: 80%;
+}
+
+.articles__latest-text h3 {
+  text-transform: uppercase;
+  color: var(--header);
+  font-size: 1.4rem;
+}
+
+.articles__latest-text a {
+  text-decoration: none;
+  color: var(--header);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.articles__latest-image {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Artboard-2@2x-100.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
