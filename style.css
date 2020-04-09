@@ -8,6 +8,7 @@
 
 :root {
   --header: #ff4422;
+  --text: #4d4d4d;
 }
 
 html {
@@ -497,13 +498,13 @@ body {
 
 /* Articles Grid Section */
 .articles__grid {
-  display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
   gap: 1.5rem;
 }
 
 .articles__container {
-  background-color: tomato;
+  background-color: lightblue
   height: 75rem;
 }
 
@@ -515,13 +516,16 @@ body {
 
 .articles__image {
   height: 30rem;
-  background-color: blue;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/blogpost-header-v02-796x341.gif);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
 }
 
 .articles__latest {
   width: 100%;
   height: 9rem;
-  background-color: #FFF4F2;
+  background-color: #fff4f2;
   display: flex;
   align-items: center;
 }
@@ -550,4 +554,31 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+.article__list {
+  width: 85%;
+  margin:3rem 1.5rem;
+  
+}
+
+.article__title {
+  padding:1rem;
+  list-style: none;
+  position: relative;
+  border-bottom: 1px solid #e9e9e9;
+}
+.article__title::before {
+  content: '';
+  background-color: var(--header);
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  left:-1rem;
+  top:40%;
+}
+
+.article__title a {
+  color: var(--text);
+  font-size: 1.5rem;
 }
