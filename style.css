@@ -415,7 +415,6 @@ body {
 
 .companies__container {
   height: 25rem;
-  background-color: aqua;
   flex: 0 0 27%;
   margin-right: 1rem;
   display: flex;
@@ -431,8 +430,6 @@ body {
 }
 
 .companies__container-name {
-  height: 33%;
-  width: 100%;
   background-color: var(--header);
   display: flex;
   align-items: center;
@@ -440,15 +437,16 @@ body {
 
 .companies__container-name a {
   color: white;
+  padding: 1rem;
   font-weight: bold;
   margin: 0 auto;
   text-decoration: none;
 }
 
 .companies__container-money {
-  height: 66%;
+  padding: 1rem;
   width: 100%;
-  background-color: #FFEBE8;
+  background-color: #ffebe8;
   text-align: center;
 }
 
@@ -472,4 +470,28 @@ body {
 
 .companies__container-image img {
   width: 5.5rem;
+}
+
+.companies__container-tags {
+  background-color: #fffaf8;
+  padding: 2rem 2rem;
+  border-bottom: 1px solid #ffccc3;
+}
+.tag {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.fa-tag,
+.fa-briefcase {
+  margin-right: 0.5rem;
+}
+
+.companies__container-details {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #fffaf8;
+}
+.details-name {
+  padding: 1rem 0;
 }
