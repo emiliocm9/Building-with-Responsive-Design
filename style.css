@@ -629,9 +629,8 @@ body {
   background-size: cover;
   height: 80%;
   position: relative;
-  /* clip-path: polygon(100% 0, 1% 0, 100% 100%);
-  background-color: yellow; */
 }
+
 .offer__tag {
   background-color: yellow;
   position: absolute;
@@ -655,3 +654,30 @@ body {
   margin-left: 0.5rem;
 }
 
+.one {
+  background-image: url('https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg');
+}
+
+.two {
+ background-image: url(https://cdnp2.stackassets.com/9257668fcaee11d85700e41e6f0885af53444764/store/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg);
+}
+
+.three {
+  background-image: url(https://cdnp0.stackassets.com/b71a35933bfff2f4b68162cdd15511d4c852028e/store/213bde39c7285726394c4afed207d57cfd6bf224453c2c0edbfc12a448e8/sale_24208_primary_image.jpg);
+}
+
+.four {
+  background-image: url(https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg);  
+}
+
+.five {
+  background-image: url(https://cdnp3.stackassets.com/91269f67479c8ba9b50a1afd8c9895a43faed8bb/store/68076d638abc4b1c252b05e65253424957f0ff9549c7bd37b82b975620a8/sale_27020_primary_image.jpg);
+}
+
+.six {
+  background-image: url(https://cdnp1.stackassets.com/a4a04dbdfa33745ffe1eadfe357643683d4fff9e/store/d8dbd9630bd4d7226a9604c67b90e36eb94c412d5be18e4bbabb19aba4f9/sale_27009_primary_image.jpg);
+}
+
+.seven {
+  background-image: url(https://cdnp3.stackassets.com/600275c367415b9343a9b4812472fa05f7db59a8/store/dd972578f03549a52ceaac3644e38a3ee41cc83aef912816935d031e21d2/sale_14198_primary_image.jpg);
+}
