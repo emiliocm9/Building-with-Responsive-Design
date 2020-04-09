@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header: #ff4422;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -257,11 +261,16 @@ body {
 
 /* Latest Articles */
 
-.latest {
-  background-color: #fff;
+.main-container {
   max-width: 70vw;
   width: 100%;
-  margin: 8rem auto 0 auto;
+  margin: 0 auto;
+}
+
+.latest {
+  background-color: #fff;
+
+  margin-top: 8rem;
 }
 
 .latest__header {
@@ -277,7 +286,7 @@ body {
 
 .latest__grid {
   display: grid;
-  height: 70rem;
+  height: 60vh;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
@@ -308,8 +317,7 @@ body {
 
 .latest__article-title a:hover {
   color: #ff4422;
-  text-decoration-color: #ff4422;  
-  
+  text-decoration-color: #ff4422;
 }
 
 .latest__article-details {
@@ -363,4 +371,44 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 62%;
+}
+
+/* Funding  */
+
+.funding {
+  margin-top: 4rem;
+}
+
+.funding__index-container,
+.funding__options {
+  display: flex;
+}
+
+.funding__index-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  padding: 0 1rem;
+}
+
+.options:not(:last-child) {
+  border-right: 2px solid var(--header);
+}
+.options a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--header);
+}
+.funding__companies {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: space-between;
+}
+
+.companies__container {
+  height: 20rem;
+  background-color: aqua;
+  flex: 0 0 20%;
 }
