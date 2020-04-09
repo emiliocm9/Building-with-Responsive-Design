@@ -274,16 +274,16 @@ body {
   text-decoration: none;
   color: #ff4422;
 }
+
 .latest__grid {
   display: grid;
-  height: 50rem;
-
+  height: 70rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
 .latest__grid-items {
-  background-color: teal;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -292,15 +292,75 @@ body {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design56-516x270.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60%;
+  height: 62%;
 }
 .latest__article-title {
   padding: 1rem 0;
+  text-align: justify;
   width: 100%;
 }
 .latest__article-title a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  color: #333;
+  color: black;
   text-decoration: none;
+}
+
+.latest__article-title a:hover {
+  color: #ff4422;
+  text-decoration-color: #ff4422;  
+  
+}
+
+.latest__article-details {
+  color: #aaa;
+}
+
+.latest__article-image-one {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/index-ventures-money-516x270.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-two {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/man-4957154_1280-473x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-three {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/man-4957154_1280-473x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-four {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/disney-3865667_1920-480x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-five {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27631_primary_image_wide-540x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-six {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/sale_27479_primary_image_wide-1-540x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
+}
+
+.latest__article-image-seven {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-14-516x270.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 62%;
 }
