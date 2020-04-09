@@ -254,3 +254,53 @@ body {
     ),
     url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/PlayStation-5-DualSense-796x417.jpg');
 }
+
+/* Latest Articles */
+
+.latest {
+  background-color: #fff;
+  max-width: 70vw;
+  width: 100%;
+  margin: 8rem auto 0 auto;
+}
+
+.latest__header {
+  font-size: 3.6rem;
+  padding: 2rem 0;
+  font-weight: 800;
+}
+
+.latest__header a {
+  text-decoration: none;
+  color: #ff4422;
+}
+.latest__grid {
+  display: grid;
+  height: 50rem;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.latest__grid-items {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest__article-image {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design56-516x270.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60%;
+}
+.latest__article-title {
+  padding: 1rem 0;
+  width: 100%;
+}
+.latest__article-title a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
