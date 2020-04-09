@@ -162,7 +162,6 @@ body {
 .grid__first-title {
   width: 95%;
   margin: 3.5rem auto 0;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
@@ -411,6 +410,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  height: 35rem;
 }
 
 .companies__container {
@@ -494,4 +494,18 @@ body {
 }
 .details-name {
   padding: 1rem 0;
+}
+
+/* Articles Grid Section */
+.articles__grid {
+  display: grid;
+  height: 200rem; 
+  grid-template-columns: repeat (auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+
+}
+
+.articles__container {
+  background-color: tomato;
+  height: 60rem;
 }
