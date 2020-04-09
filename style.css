@@ -14,6 +14,10 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
@@ -286,7 +290,7 @@ body {
 
 .latest__grid {
   display: grid;
-  height: 60vh;
+  height: 70rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
@@ -396,19 +400,76 @@ body {
 .options:not(:last-child) {
   border-right: 2px solid var(--header);
 }
+
 .options a {
   font-size: 1.4rem;
   text-decoration: none;
   color: var(--header);
 }
+
 .funding__companies {
   display: flex;
-  margin-right: 1rem;
   justify-content: space-between;
+  width: 90%;
 }
 
 .companies__container {
-  height: 20rem;
+  height: 25rem;
   background-color: aqua;
-  flex: 0 0 20%;
+  flex: 0 0 27%;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.companies__container-header {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.companies__container-name {
+  height: 33%;
+  width: 100%;
+  background-color: var(--header);
+  display: flex;
+  align-items: center;
+}
+
+.companies__container-name a {
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.companies__container-money {
+  height: 66%;
+  width: 100%;
+  background-color: #FFEBE8;
+  text-align: center;
+}
+
+.companies__container-money h4 {
+  margin: 0.5rem auto 0.2rem;
+  font-size: 1.8rem;
+  color: black;
+}
+
+.companies__container-money h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.companies__container-image {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.companies__container-image img {
+  width: 5.5rem;
 }
