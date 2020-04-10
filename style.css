@@ -17,6 +17,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #ff4422;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
 .nav__latest-right {
   display: flex;
 }
+
 .nav__tnw-link:hover {
   color: #fff;
 }
@@ -71,6 +73,7 @@ body {
   margin: 0 0.5rem;
   font-weight: bold;
 }
+
 .news {
   color: white;
 }
@@ -102,10 +105,10 @@ body {
   height: 6.6rem;
   justify-content: center;
   align-items: center;
-  /* padding-left: 1rem; */
   border-left: 1px solid #959595;
   cursor: pointer;
 }
+
 .bar {
   display: none;
 }
@@ -120,9 +123,11 @@ body {
   background-image: url('https://media.giphy.com/media/3DsNP07nApt1eEyjvM/giphy.gif');
   background-size: cover;
 }
+
 .nav__logo {
   width: 10rem;
 }
+
 .fa-search {
   color: grey;
   transform: rotate(90deg);
@@ -300,6 +305,21 @@ body {
   margin: 0 auto;
 }
 
+.fa-chevron-right {
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+.black:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer__logo-circle:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
 .latest {
   background-color: #fff;
   margin-top: 8rem;
@@ -336,6 +356,7 @@ body {
   overflow: hidden;
   padding-top: 50%;
 }
+
 .latest__article-image {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design56-516x270.png');
   background-size: cover;
