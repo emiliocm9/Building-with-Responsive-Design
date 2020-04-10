@@ -318,7 +318,7 @@ body {
 
 .latest__grid {
   display: grid;
-  height: 70rem;
+
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
 }
@@ -329,12 +329,19 @@ body {
   flex-direction: column;
 }
 
+.common__image {
+  margin-bottom: -8px;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  padding-top: 50%;
+}
 .latest__article-image {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design56-516x270.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 62%;
 }
+
 .latest__article-title {
   padding: 1rem 0;
   text-align: justify;
@@ -528,7 +535,7 @@ body {
 /* Articles Grid Section */
 .articles__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
@@ -1010,8 +1017,21 @@ body {
   }
 }
 
-
 @media screen and (max-width: 1024px) {
+  .companies__hidden {
+    display: none;
+  }
+  .funding__companies {
+    width: 100%;
+  }
+  .companies__container {
+    flex: 1;
+  }
 
-  
+  .funding__index-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+  }
 }
