@@ -75,7 +75,7 @@ body {
   color: white;
 }
 
-.nav__tnw-right  {
+.nav__tnw-right {
   margin-right: 1.5rem;
   list-style: none;
 }
@@ -851,7 +851,7 @@ body {
   }
 
   .main-container {
-    margin-top: 30rem;
+    margin-top: 10rem;
   }
 
   .bar {
@@ -865,7 +865,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .tech {
     height: 6rem;
     text-align: center;
@@ -878,6 +878,7 @@ body {
   .grid {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+    margin-top: 12rem;
   }
 
   .grid__first {
@@ -885,12 +886,12 @@ body {
     grid-row: 1;
   }
 
-  .grid__first-title svg {
-    width: 25rem;
+  .grid__first-title {
+    display: none;
   }
 
   .grid__first-text {
-    height: 30%;
+    padding-top: 8rem;
   }
 
   .grid__first-text span {
@@ -898,6 +899,7 @@ body {
   }
 
   .share__details-first {
+    margin-top: 2.5rem;
     width: 50%;
   }
 
@@ -918,10 +920,62 @@ body {
   .grid__third {
     grid-row: 3;
     grid-column: 1;
-}
+  }
 
-.second-text__header {
-  font-size: 2.5rem;
-}
+  .second-text__header {
+    font-size: 2.5rem;
+  }
+  .latest__grid-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 7.2rem;
+  }
+  .latest__article-image,
+  .latest__article-image-one,
+  .latest__article-image-two,
+  .latest__article-image-three,
+  .latest__article-image-four,
+  .latest__article-image-five,
+  .latest__article-image-six,
+  .latest__article-image-seven {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 100%;
+  }
+  .latest__article-title,
+  .latest__article-details {
+    grid-column: 2 / span 4;
+    padding-left: 1rem;
+  }
 
+  .latest__header a {
+    font-size: 2.8rem;
+  }
+  .funding__index-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .funding__options {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .options:not(:last-child) {
+    border-right: none;
+  }
+  .options {
+    padding: 1rem;
+  }
+  .funding__companies {
+    flex-direction: column;
+    height: 80rem;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .companies__hidden {
+    display: none;
+  }
 }
