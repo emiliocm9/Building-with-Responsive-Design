@@ -975,7 +975,43 @@ body {
     width: 100%;
     margin-bottom: 10rem;
   }
+
   .companies__hidden {
     display: none;
   }
+
+  .latest__deals-details {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 1rem;
+  }
+
+  .offer__tag {
+    display: none;
+  }
+
+  .latest__deal-image {
+    height: 100%;
+    grid-row: 1 / span 2;
+  }
+
+  .latest__header .deals {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .footer__events li a {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  
 }
