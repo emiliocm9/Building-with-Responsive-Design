@@ -71,6 +71,9 @@ body {
   margin: 0 0.5rem;
   font-weight: bold;
 }
+.news {
+  color: white;
+}
 
 .nav__tnw-right ul {
   margin-right: 1.5rem;
@@ -85,13 +88,14 @@ body {
 }
 
 .nav__latest-left {
-  flex: 0 0 55%;
+  flex: 0 0 50%;
   cursor: pointer;
 }
 
 .nav__latest-left ul {
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__latest-right {
@@ -104,6 +108,19 @@ body {
   cursor: pointer;
 }
 
+.nav__logo-container {
+  background-color: red;
+  height: inherit;
+  padding: 2rem 1rem 2rem 0rem;
+}
+
+.nav__logo-container:hover {
+  background-image: url('https://media.giphy.com/media/3DsNP07nApt1eEyjvM/giphy.gif');
+  background-size: cover;
+}
+.nav__logo {
+  width: 10rem;
+}
 .fa-search {
   color: grey;
   transform: rotate(90deg);
@@ -138,9 +155,18 @@ body {
   font-size: 1.45rem;
 }
 
+.fixed__container {
+  position: fixed;
+  width: 100vw;
+  z-index: 9990;
+  top: 0;
+  left: 0;
+}
+
 .grid {
-  margin-top: 0.5rem;
+  margin-top: 13.5rem;
   width: 100%;
+
   height: 55rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -152,9 +178,10 @@ body {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
   background-image: linear-gradient(
-      to right bottom,
-      rgba(36, 37, 36, 0.801),
-      rgba(37, 37, 37, 0.51)
+      180deg,
+      rgba(255, 0, 0, 0.883),
+      rgba(29, 28, 28, 0.849) 60%,
+      rgb(0, 0, 0) 100%
     ),
     url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/kayleighmcenany-796x419.jpg');
   background-size: cover;
@@ -745,56 +772,63 @@ body {
 
 .first {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/2Vc8vuk);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/2Vc8vuk);
 }
 
 .second {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/3c26l7s);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/3c26l7s);
 }
 
 .third {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/2VgmIXi);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/2VgmIXi);
 }
 
 .fourth {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/3cbFlmf);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/3cbFlmf);
 }
 
 .fifth {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/2VdG0ww);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/2VdG0ww);
 }
 
 .sixth {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/3aZNmKL);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/3aZNmKL);
 }
 
 .seventh {
   background-image: linear-gradient(
-    to right bottom,
-    rgba(36, 37, 36, 0.801),
-    rgba(37, 37, 37, 0.51)
-  ), url(https://bit.ly/2yQZU98);
+      to right bottom,
+      rgba(36, 37, 36, 0.801),
+      rgba(37, 37, 37, 0.51)
+    ),
+    url(https://bit.ly/2yQZU98);
 }

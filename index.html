@@ -22,48 +22,74 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav__tnw">
-        <div class="nav__tnw-left">
-          <ul>
-            <li><a href="" class="nav__tnw-link">News</a></li>
-            <li><a href="" class="nav__tnw-link">TNW2020</a></li>
-            <li><a href="" class="nav__tnw-link">Business</a></li>
-            <li><a href="" class="nav__tnw-link">AMAs</a></li>
-            <li><a href="" class="nav__tnw-link">Spaces</a></li>
-            <li><a href="" class="nav__tnw-link">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="nav__tnw-right">
-          <ul>
-            <li><a href="" class="nav__tnw-link">About</a></li>
-            <li><a href="" class="nav__tnw-link">Advertise</a></li>
-            <li><a href="" class="nav__tnw-link">Jobs</a></li>
-            <li><a href="" class="nav__tnw-link">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav class="nav__latest">
-        <div class="nav__latest-left">
-          <ul>
-            <li><a href="" class="nav__latest_link">Latest</a></li>
-            <li><a href="" class="nav__latest_link">Hard Work</a></li>
-            <li><a href="" class="nav__latest_link">Plugged</a></li>
-            <li><a href="" class="nav__latest_link">Fundamentals</a></li>
-            <li><a href="" class="nav__latest_link">Readme</a></li>
-            <li><a href="" class="nav__latest_link">Growth Quarters</a></li>
-            <li><a href="" class="nav__latest_link">Neurals</a></li>
-          </ul>
-        </div>
-        <div class="nav__latest-right">
-          <i class="fas fa-search"></i>
-        </div>
-      </nav>
-      <nav class="tech">
-        <span class="">
-          Did you know we have a TECH FESTIVAL? Check it out
-          <i class="fas fa-arrow-right"></i>
-        </span>
-      </nav>
+      <div class="fixed__container">
+        <nav class="nav__tnw">
+          <div class="nav__tnw-left">
+            <ul>
+              <li><a href="" class="news">News</a></li>
+              <li><a href="" class="nav__tnw-link">TNW2020</a></li>
+              <li><a href="" class="nav__tnw-link">Business</a></li>
+              <li><a href="" class="nav__tnw-link">AMAs</a></li>
+              <li><a href="" class="nav__tnw-link">Spaces</a></li>
+              <li><a href="" class="nav__tnw-link">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="nav__tnw-right">
+            <ul>
+              <li><a href="#" class="nav__tnw-link">About</a></li>
+              <li><a href="#" class="nav__tnw-link">Advertise</a></li>
+              <li><a href="#" class="nav__tnw-link">Jobs</a></li>
+              <li><a href="#" class="nav__tnw-link">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="nav__latest">
+          <div class="nav__latest-left">
+            <ul>
+              <li class="nav__logo-container">
+                <a href="#" class="nav__latest_link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="nav__logo"
+                    viewBox="0 0 165 40"
+                  >
+                    <title>tnw-w</title>
+                    <path
+                      d="M72.48641,4.39346A15,15,0,0,0,61.87972,0H40V40H55V15h4.80865a5.00792,5.00792,0,0,1,3.539,1.46439l5.181,5.17761A5.00621,5.00621,0,0,1,70,25.17761V40H85V23.10654A15.00711,15.00711,0,0,0,80.5998,12.5Z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="M150,0V14.82239a5.0061,5.0061,0,0,1-1.47141,3.53546L143.344,23.53547A4.99924,4.99924,0,0,1,139.8085,25h-7.20535A14.979,14.979,0,0,0,135,16.89331V0H120V14.82239a5.0061,5.0061,0,0,1-1.47141,3.53546L113.344,23.53547A4.99924,4.99924,0,0,1,109.8085,25H105V0H90V40h21.87974a15.00761,15.00761,0,0,0,10.61005-4.39346L127.5,30.59845V40h14.37973a15.00761,15.00761,0,0,0,10.61005-4.39346l8.11-8.10669A15.00656,15.00656,0,0,0,165,16.89331V0Z"
+                      fill="#fff"
+                    />
+                    <polygon
+                      points="0 15 10 15 10 40 25 40 25 15 35 15 35 0 0 0 0 15"
+                      fill="#fff"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li><a href="" class="nav__latest_link">Latest</a></li>
+              <li><a href="" class="nav__latest_link">Hard Work</a></li>
+              <li><a href="" class="nav__latest_link">Plugged</a></li>
+              <li><a href="" class="nav__latest_link">Fundamentals</a></li>
+              <li><a href="" class="nav__latest_link">Readme</a></li>
+              <li><a href="" class="nav__latest_link">Growth Quarters</a></li>
+              <li><a href="" class="nav__latest_link">Neurals</a></li>
+            </ul>
+          </div>
+          <div class="nav__latest-right">
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+        <nav class="tech">
+          <span class="">
+            Did you know we have a TECH FESTIVAL? Check it out
+            <i class="fas fa-arrow-right"></i>
+          </span>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- GRID SECTION IMAGES -->
@@ -438,7 +464,8 @@
               <div class="articles__image-text">
                 <h4>Most Popular</h4>
                 <a href="#" class="articles__image-title"
-                  >My favorite no-electricity espresso maker is now easier to use than ever</a
+                  >My favorite no-electricity espresso maker is now easier to
+                  use than ever</a
                 ><br />
                 <a href="#" class="articles__image-author">Napier Lopez</a> -
                 <span class="articles__image-date">20 hours ago</span>
@@ -448,7 +475,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >The OnePlus 8 series will be the first with wireless charging, and it's super fast</a
+                  >The OnePlus 8 series will be the first with wireless
+                  charging, and it's super fast</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -502,7 +530,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >Research: How location-tracking apps could stop the spread of coronavirus</a
+                  >Research: How location-tracking apps could stop the spread of
+                  coronavirus</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -510,27 +539,32 @@
             <ul class="article__list">
               <li class="article__title">
                 <a href="#"
-                  >MIT'S sprayable sensor can turn your sofa armrest into a TV remote</a
+                  >MIT'S sprayable sensor can turn your sofa armrest into a TV
+                  remote</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >Parents are using Apple's FaceTime to bond with newborns as hospitals tighten visitation rules</a
+                  >Parents are using Apple's FaceTime to bond with newborns as
+                  hospitals tighten visitation rules</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >Someone traines an AI on BDSM literature so it culd remix the King James Bible</a
+                  >Someone traines an AI on BDSM literature so it culd remix the
+                  King James Bible</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >Why the coronavirus lockdown makes you more vulneable to phishing scams</a
+                  >Why the coronavirus lockdown makes you more vulneable to
+                  phishing scams</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >This smart toilet offers advanced poop analysis and analprinting</a
+                  >This smart toilet offers advanced poop analysis and
+                  analprinting</a
                 >
               </li>
             </ul>
@@ -541,7 +575,8 @@
               <div class="articles__image-text">
                 <h4>Most Popular</h4>
                 <a href="#" class="articles__image-title"
-                  >Animal Crossing: New Horizons player masterfully recreates 'Hyrule' from The Legend of Zelda</a
+                  >Animal Crossing: New Horizons player masterfully recreates
+                  'Hyrule' from The Legend of Zelda</a
                 ><br />
                 <a href="#" class="articles__image-author">Rachel Kaser</a> -
                 <span class="articles__image-date">2 days ago</span>
@@ -551,7 +586,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >Life Imitiating art: Quarantined people remix famous paintings with household items</a
+                  >Life Imitiating art: Quarantined people remix famous
+                  paintings with household items</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -559,7 +595,8 @@
             <ul class="article__list">
               <li class="article__title">
                 <a href="#"
-                  >A Cats butthole cut 'trailer' is out - an analysis of its alternative reality</a
+                  >A Cats butthole cut 'trailer' is out - an analysis of its
+                  alternative reality</a
                 >
               </li>
               <li class="article__title">
@@ -569,17 +606,20 @@
               </li>
               <li class="article__title">
                 <a href="#"
-                  >This Amazon parody dating site is hilarious... and also kind of creepy</a
+                  >This Amazon parody dating site is hilarious... and also kind
+                  of creepy</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >Leaked trailer offers a new look at Godfall, the first game announced for PS5</a
+                  >Leaked trailer offers a new look at Godfall, the first game
+                  announced for PS5</a
                 >
               </li>
               <li class="article__title">
                 <a href="#"
-                  >Instagram's decision to hide photoshopped images is a disservice to art</a
+                  >Instagram's decision to hide photoshopped images is a
+                  disservice to art</a
                 >
               </li>
             </ul>
@@ -600,7 +640,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >5 messaging tips to help brand marketers navigate the pitfalls of coronavirus</a
+                  >5 messaging tips to help brand marketers navigate the
+                  pitfalls of coronavirus</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -644,7 +685,8 @@
               <div class="articles__image-text">
                 <h4>Most Popular</h4>
                 <a href="#" class="articles__image-title"
-                  >Amazon extends return windows so you don't have to go outside during lockdown</a
+                  >Amazon extends return windows so you don't have to go outside
+                  during lockdown</a
                 ><br />
                 <a href="#" class="articles__image-author">Napier Lopez</a> -
                 <span class="articles__image-date">17 hours ago</span>
@@ -654,7 +696,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >Index Ventures launches $2B fund to back tech startups worldwide</a
+                  >Index Ventures launches $2B fund to back tech startups
+                  worldwide</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -708,7 +751,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >The hyper-compact Microlino 2.0 EV is almost too cute for words</a
+                  >The hyper-compact Microlino 2.0 EV is almost too cute for
+                  words</a
                 >
               </div>
               <div class="articles__latest-image"></div>
@@ -752,7 +796,8 @@
               <div class="articles__image-text">
                 <h4>Most Popular</h4>
                 <a href="#" class="articles__image-title"
-                  >Watch 50+ live performances from Montreux Jazz Festival for free</a
+                  >Watch 50+ live performances from Montreux Jazz Festival for
+                  free</a
                 ><br />
                 <a href="#" class="articles__image-author">Matthew Beedham</a> -
                 <span class="articles__image-date">2 hours ago</span>
@@ -762,7 +807,8 @@
               <div class="articles__latest-text">
                 <h3>Latest</h3>
                 <a href="#"
-                  >Daily Distraction: Follow these Youtube chefs and cook up a feast with pantry ingredients</a
+                  >Daily Distraction: Follow these Youtube chefs and cook up a
+                  feast with pantry ingredients</a
                 >
               </div>
               <div class="articles__latest-image"></div>
