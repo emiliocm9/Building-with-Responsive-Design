@@ -407,15 +407,20 @@ body {
   font-weight: bold;
 }
 
+.footer__name a {
+  text-transform: uppercase;
+  color: white;
+}
+
 .footer__events li a {
   color: inherit;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.footer__name a {
-  text-transform: uppercase;
-  color: white;
+.article__title a {
+  color: var(--text);
+  font-size: 1.5rem;
 }
 
 .latest__article-title a:hover {
@@ -663,11 +668,6 @@ body {
   border-radius: 100%;
   left: -1rem;
   top: 40%;
-}
-
-.article__title a {
-  color: var(--text);
-  font-size: 1.5rem;
 }
 
 .articles__image-text {
@@ -1016,12 +1016,12 @@ body {
     margin-bottom: 2rem;
   }
 
-  .options:not(:last-child) {
-    border-right: none;
-  }
-
   .options {
     padding: 1rem;
+  }
+
+  .options:not(:last-child) {
+    border-right: none;
   }
 
   .funding__companies {
