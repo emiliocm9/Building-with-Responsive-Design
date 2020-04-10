@@ -504,7 +504,7 @@ body {
 }
 
 .articles__container {
-  background-color: lightblue;
+  background-color: white;
   height: 75rem;
 }
 
@@ -741,4 +741,60 @@ body {
 .footer__name a {
   text-transform: uppercase;
   color: white;
+}
+
+.first {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/2Vc8vuk);
+}
+
+.second {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/3c26l7s);
+}
+
+.third {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/2VgmIXi);
+}
+
+.fourth {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/3cbFlmf);
+}
+
+.fifth {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/2VdG0ww);
+}
+
+.sixth {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/3aZNmKL);
+}
+
+.seventh {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(36, 37, 36, 0.801),
+    rgba(37, 37, 37, 0.51)
+  ), url(https://bit.ly/2yQZU98);
 }
