@@ -650,7 +650,7 @@ body {
   text-align: center;
   padding: 0.3rem;
   font-weight: bold;
-  
+
   margin-left: 0.5rem;
 }
 
@@ -659,7 +659,7 @@ body {
 }
 
 .two {
- background-image: url(https://cdnp2.stackassets.com/9257668fcaee11d85700e41e6f0885af53444764/store/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg);
+  background-image: url(https://cdnp2.stackassets.com/9257668fcaee11d85700e41e6f0885af53444764/store/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg);
 }
 
 .three {
@@ -667,7 +667,7 @@ body {
 }
 
 .four {
-  background-image: url(https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg);  
+  background-image: url(https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg);
 }
 
 .five {
@@ -680,4 +680,65 @@ body {
 
 .seven {
   background-image: url(https://cdnp3.stackassets.com/600275c367415b9343a9b4812472fa05f7db59a8/store/dd972578f03549a52ceaac3644e38a3ee41cc83aef912816935d031e21d2/sale_14198_primary_image.jpg);
+}
+
+.footer {
+  width: 100vw;
+  height: 24rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container {
+  height: 60%;
+  width: 100%;
+
+  background-color: #131313;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.footer__logo-circle {
+  margin-right: 1.4rem;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 100%;
+  background-color: #333;
+  color: white;
+}
+.footer__events {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.footer__events li {
+  list-style: none;
+  margin-right: 2rem;
+  color: #9d9d9d;
+}
+.footer__events li a {
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer__copyright {
+  background-color: #000000;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9d9d9d;
+}
+.logo {
+  width: 4rem;
+}
+.footer__name a {
+  text-transform: uppercase;
+  color: white;
 }
