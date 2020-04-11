@@ -412,15 +412,15 @@ body {
   color: white;
 }
 
+.article__title a {
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
 .footer__events li a {
   color: inherit;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.article__title a {
-  color: var(--text);
-  font-size: 1.5rem;
 }
 
 .latest__article-title a:hover {
