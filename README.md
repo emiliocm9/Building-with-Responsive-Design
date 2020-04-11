@@ -1,12 +1,13 @@
 # Building-with-Responsive-Design
 We built a responsive website. We’ll be cloning The Next Web, a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.
 
-![PROJECT: Building with responsive design made by Shubham & Emilio](img/ProjectSS.png?raw=true 'PROJECT: Building with responsive design made by Shubham & Emilio')
+![PROJECT: Building with responsive design made by Shubham & Emilio](https://github.com/emiliocm9/Building-with-Responsive-Design/blob/features/img/ProjectSS.PNG)
 
 ## Built With
 
 - HTML,
 - CSS
+
 
 ### Milestone
 
@@ -14,7 +15,7 @@ We built a responsive website. We’ll be cloning The Next Web, a tech-focused m
 
 ## Live Webpage
 
-[Click Here](https://rawcdn.githack.com/shubhsk88/smashing-magazine-design/08dc52bdb797ea7a6be35eb64ee7154fc413c682/index.html)
+[Click Here](https://musing-williams-afd9b5.netlify.com)
 
 ## Authors
 
@@ -36,5 +37,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This page is inspired by the Smashing Magazine
+- This page is inspired by the The next web
 - Used Google Fonts for the fonts
+- Used the SVG for the icon of the company 
