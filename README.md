@@ -1,7 +1,7 @@
 # Building-with-Responsive-Design
 We built a responsive website. We’ll be cloning The Next Web, a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.
 
-![PROJECT: DESIGN TEARDOWN made by Shubham & Emilio](ProjectSS.png?raw=true 'PROJECT: DESIGN TEARDOWN made by Shubham & Emilio')
+![PROJECT: Building with responsive design made by Shubham & Emilio](ProjectSS.png?raw=true 'PROJECT: Building with responsive design made by Shubham & Emilio')
 
 ## Built With
 
@@ -10,7 +10,7 @@ We built a responsive website. We’ll be cloning The Next Web, a tech-focused m
 
 ### Milestone
 
-- To match the original at [smashingmagazine.com](https://www.smashingmagazine.com/#top) as much as possible
+- To match the original at [thenextweb.com](https://thenextweb.com) as much as possible
 
 ## Live Webpage
 
