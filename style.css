@@ -184,7 +184,8 @@ body {
   justify-content: space-between;
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180deg,
       rgba(255, 0, 0, 0.883),
       rgba(29, 28, 28, 0.849) 60%,
@@ -242,7 +243,8 @@ body {
 .grid__second {
   grid-row: 1;
   grid-column: 3;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -289,7 +291,8 @@ body {
 .grid__third {
   grid-row: 2;
   grid-column: 3;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -605,7 +608,8 @@ body {
 
 .articles__image {
   height: 30rem;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -813,7 +817,8 @@ body {
 }
 
 .first {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -822,7 +827,8 @@ body {
 }
 
 .second {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -831,7 +837,8 @@ body {
 }
 
 .third {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -840,7 +847,8 @@ body {
 }
 
 .fourth {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -849,7 +857,8 @@ body {
 }
 
 .fifth {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -858,7 +867,8 @@ body {
 }
 
 .sixth {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -867,7 +877,8 @@ body {
 }
 
 .seventh {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
