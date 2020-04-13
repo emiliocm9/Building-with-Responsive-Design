@@ -693,7 +693,7 @@ body {
 
 .articles__image-title {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   text-decoration: none;
 }
@@ -1144,7 +1144,17 @@ body {
   }
 
   .footer__events li a {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 }
 
+@media screen and (max-width: 430px) {
+  .footer__logo-circle {
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-radius: 100%;
+    background-color: #333;
+    color: white;
+  }
+
+}
