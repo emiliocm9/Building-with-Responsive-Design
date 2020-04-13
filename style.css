@@ -100,15 +100,12 @@ body {
   align-items: center;
 }
 
-.nav__latest-link{
-  padding:2rem;
-
+.nav__latest-link {
+  padding: 2rem;
 }
 
-.nav__latest_left ul li{
-  flex:1;
-
-
+.nav__latest_left ul li {
+  flex: 1;
 }
 
 .nav__latest-right {
@@ -244,12 +241,11 @@ body {
   line-height: 1;
 }
 
-
 .grid__second {
   grid-row: 1;
   grid-column: 3;
   background-image:
-    linear-gradient(
+  linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -288,7 +284,7 @@ body {
   
 }
 
-.share__details>*{
+.share__details > * {
   padding-right: 1.5rem;
 }
 
@@ -358,8 +354,8 @@ body {
 
 .latest__grid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -912,20 +908,20 @@ body {
     font-weight: 800;
   }
 
-  .nav__latest-left{
-    flex:0 0 80%;
+  .nav__latest-left {
+    flex: 0 0 80%;
   }
 
-  .latest__grid {
-    
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+  .latest__grid { 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
+
   .companies__container {
     flex: 1;
   }
 
-  .articles__grid{
+  .articles__grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -955,7 +951,8 @@ body {
     background-color: #333;
     color: white;
   }
-  .footer__logo{
+
+  .footer__logo {
     flex-wrap: wrap;
   }
   
@@ -971,7 +968,7 @@ body {
     margin-top: 10rem;
   }
 
-  .articles__grid{
+  .articles__grid {
     grid-template-columns: 1fr;
   }
 
@@ -1036,7 +1033,6 @@ body {
   .share__details .author__title,
   .share__time {
     font-size: 1rem;
-
   }
 
   .grid__third {
@@ -1048,9 +1044,8 @@ body {
     font-size: 2.5rem;
   }
 
-  .latest__grid{
+  .latest__grid {
     grid-template-columns: 1fr;
-
   }
 
   .latest__grid-items {
@@ -1073,8 +1068,7 @@ body {
     grid-column: 1;
     grid-row: 1 / span 2;
     padding-top: 10px;
-    height: 100%;
-    
+    height: 100%;  
   }
 
   .latest__article-title,
@@ -1097,7 +1091,6 @@ body {
     flex-direction: column;
     margin-bottom: 2rem;
   }
-  
 
   .options {
     padding: 1rem;
@@ -1138,24 +1131,21 @@ body {
     font-weight: 300;
   }
 
-  .footer{
+  .footer {
     height: auto;
   }
 
   .footer__copyright {
     text-align: center;
     font-size: 1rem;
+    padding: 3rem 0;
   }
-  .footer__events{
+  .footer__events {
     flex-wrap: wrap;
   }
 
   .footer__events li a {
     font-size: 1.2rem;
   }
-  .footer__copyright{
-   padding: 3rem 0;
-  }
+  
 }
-
-
