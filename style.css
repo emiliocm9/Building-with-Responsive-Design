@@ -807,8 +807,6 @@ body {
   margin-top: 3rem;
 }
 
-
-
 .footer__copyright {
   background-color: #000;
   height: 40%;
@@ -955,7 +953,7 @@ body {
     flex-wrap: wrap;
   }
   
- .nav__latest-right {
+  .nav__latest-right {
     flex: 0 0 20%;
     display: flex;
     justify-content: space-evenly;
@@ -1067,6 +1065,7 @@ body {
     grid-row: 1 / span 2;
     padding-top: 10px;
     height: 100%;  
+  
   }
 
   .latest__article-title,
@@ -1138,6 +1137,7 @@ body {
     font-size: 1rem;
     padding: 3rem 0;
   }
+  
   .footer__events {
     flex-wrap: wrap;
   }
