@@ -790,7 +790,7 @@ body {
 
 .footer__container {
   height: 60%;
-  width: 100%;
+  width: 100vw;
   background-color: #131313;
 }
 
@@ -946,6 +946,19 @@ body {
   .nav__latest_link {
     display: none;
   }
+
+  .footer__logo-circle {
+    margin-right: 0.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 100%;
+    background-color: #333;
+    color: white;
+  }
+  .footer__logo{
+    flex-wrap: wrap;
+  }
+  
 
   .nav__latest-right {
     flex: 0 0 20%;
@@ -1125,6 +1138,9 @@ body {
   .footer__copyright {
     text-align: center;
     font-size: 1rem;
+  }
+  .footer__events{
+    flex-wrap: wrap;
   }
 
   .footer__events li a {
