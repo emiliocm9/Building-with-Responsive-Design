@@ -1065,7 +1065,7 @@ body {
     grid-row: 1 / span 2;
     padding-top: 10px;
     height: 100%;
- }
+  }
 
   .latest__article-title,
   .latest__article-details {
