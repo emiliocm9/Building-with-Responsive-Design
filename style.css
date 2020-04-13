@@ -104,6 +104,12 @@ body {
   padding: 2rem;
 }
 
+.footer__events li {
+  list-style: none;
+  margin-right: 2rem;
+  color: #9d9d9d;
+}
+
 .nav__latest_left ul li {
   flex: 1;
 }
@@ -245,7 +251,7 @@ body {
   grid-row: 1;
   grid-column: 3;
   background-image:
-  linear-gradient(
+    linear-gradient(
       to right bottom,
       rgba(36, 37, 36, 0.801),
       rgba(37, 37, 37, 0.51)
@@ -281,7 +287,6 @@ body {
   display: flex;
   width: 85%;
   margin-bottom: 1rem;
-  
 }
 
 .share__details > * {
@@ -802,11 +807,7 @@ body {
   margin-top: 3rem;
 }
 
-.footer__events li {
-  list-style: none;
-  margin-right: 2rem;
-  color: #9d9d9d;
-}
+
 
 .footer__copyright {
   background-color: #000;
@@ -892,7 +893,6 @@ body {
     url(https://bit.ly/2yQZU98);
 }
 
-
 @media screen and (max-width: 1024px) {
   .companies__hidden {
     display: none;
@@ -933,7 +933,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .nav__tnw {
     display: none;
@@ -956,8 +955,7 @@ body {
     flex-wrap: wrap;
   }
   
-
-  .nav__latest-right {
+ .nav__latest-right {
     flex: 0 0 20%;
     display: flex;
     justify-content: space-evenly;
@@ -1147,5 +1145,4 @@ body {
   .footer__events li a {
     font-size: 1.2rem;
   }
-  
 }
