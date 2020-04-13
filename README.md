@@ -15,7 +15,7 @@ We built a responsive website. We’ll be cloning The Next Web, a tech-focused m
 
 ## Live Webpage
 
-[Click Here](https://musing-williams-afd9b5.netlify.com)
+[Click Here](https://rawcdn.githack.com/emiliocm9/Building-with-Responsive-Design/a4e2bd00f0ddbc76f93457da276bb7fffdff7d3d/index.html)
 
 ## Authors
 
