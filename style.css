@@ -23,7 +23,6 @@ a {
 body {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  
 }
 
 .header {
@@ -316,9 +315,7 @@ body {
   max-width: 80vw;
   width: 90%;
   margin: 0 auto;
-  
 }
-
 
 .fa-chevron-right {
   font-size: 2.5rem;
@@ -794,7 +791,6 @@ body {
 
 .footer__container {
   height: 60%;
-  /* width: 100vw; */
   background-color: #131313;
 }
 
