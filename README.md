@@ -15,7 +15,7 @@ We built a responsive website. We’ll be cloning The Next Web, a tech-focused m
 
 ## Live Webpage
 
-[Click Here](https://rawcdn.githack.com/emiliocm9/Building-with-Responsive-Design/a4e2bd00f0ddbc76f93457da276bb7fffdff7d3d/index.html)
+[Click Here](https://rawcdn.githack.com/emiliocm9/Building-with-Responsive-Design/415a21cd87ad829f125f049870c6d421a1c90c0b/index.html)
 
 ## Authors
 
